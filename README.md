@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="3m5. Webengineers — Skill Hub" width="100%">
+  <img src="docs/banner.svg" alt="3m5. Webengineers — Plugin Hub" width="100%">
 </p>
 
-# 3m5 Skill Hub
+# 3m5 Plugin Hub
 
-> Kuratierte **Claude-Skills** für alle 3m5-Abteilungen — nutzbar in **Claude Code** und **Claude Cowork**.
+> Kuratierte **Claude-Plugins** für alle 3m5-Abteilungen — nutzbar in **Claude Code** und **Claude Cowork**.
 
 Ein Skill ist ein vordefiniertes Verhalten für Claude. Sie rufen ihn per Slash-Command auf, und
 Claude verhält sich sofort genau so, wie der Skill es beschreibt — ohne langes Konfigurieren.
