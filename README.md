@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.svg" alt="3m5. Webengineers — Plugin Hub" width="100%">
+  <img src="banner.png" alt="3m5. Webengineers — Plugin Hub" width="100%">
 </p>
 
 <p align="center">
