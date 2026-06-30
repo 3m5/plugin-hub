@@ -1,0 +1,10 @@
+{
+  "name": "shared",
+  "description": "Rollenübergreifende Skills, die für alle Abteilungen nützlich sind.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jan Suchandt",
+    "email": "jan.suchandt@3m5.de"
+  },
+  "license": "MIT"
+}

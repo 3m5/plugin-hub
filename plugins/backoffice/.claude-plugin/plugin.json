@@ -1,0 +1,10 @@
+{
+  "name": "backoffice",
+  "description": "Skills für das Backoffice: E-Mail-Kommunikation, Dokumentenverarbeitung, Vorlagen.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Jan Suchandt",
+    "email": "jan.suchandt@3m5.de"
+  },
+  "license": "MIT"
+}

@@ -7,9 +7,29 @@
   "description": "3m5 Skill Hub – kuratierte Claude-Skills für Claude Code und Claude Cowork.",
   "plugins": [
     {
-      "name": "3m5",
-      "source": "./plugins/3m5",
-      "description": "3m5 Skills: grill-me (relentless interview to stress-test a plan) and happy-wife (answers delivered with domestic disappointment)."
+      "name": "shared",
+      "source": "./plugins/shared",
+      "description": "Rollenübergreifende Skills für alle Abteilungen (z. B. happy-wife)."
+    },
+    {
+      "name": "projektmanagement",
+      "source": "./plugins/projektmanagement",
+      "description": "Skills für Projektmanager: Planung, Story-Erstellung, Design-Reviews (z. B. grill-me, storytelling)."
+    },
+    {
+      "name": "design",
+      "source": "./plugins/design",
+      "description": "Skills für Designer: UI/UX-Feedback, Figma-Workflows, Design-Dokumentation."
+    },
+    {
+      "name": "development",
+      "source": "./plugins/development",
+      "description": "Skills für Entwickler: Code-Review, Refactoring, Security, Dokumentation."
+    },
+    {
+      "name": "backoffice",
+      "source": "./plugins/backoffice",
+      "description": "Skills für das Backoffice: E-Mail-Kommunikation, Dokumentenverarbeitung, Vorlagen."
     }
   ]
 }
