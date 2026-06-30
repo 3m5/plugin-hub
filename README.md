@@ -22,7 +22,7 @@ Ihrer Arbeit passen.
 
 ---
 
-## 01. Die Abteilungen
+## Struktur
 
 ### `shared` — für alle
 Rollenübergreifende Skills, die in jeder Abteilung nützlich sind. Dieses Plugin sollten Sie
@@ -52,7 +52,7 @@ Skills für das Backoffice: E-Mail-Kommunikation, Dokumentenverarbeitung und Vor
 
 ---
 
-## 02. Installation
+## Setup
 
 ### Claude Code
 
@@ -70,7 +70,7 @@ Dann `shared` plus das Plugin Ihrer Abteilung installieren:
 
 Verfügbare Plugins: `shared`, `projektmanagement`, `design`, `development`, `backoffice`.
 
-### Claude Cowork — persönlich
+### Claude Cowork
 
 1. Öffnen Sie den **Cowork**-Tab
 2. Klicken Sie oben rechts auf **Customize**
@@ -84,18 +84,9 @@ Verfügbare Plugins: `shared`, `projektmanagement`, `design`, `development`, `ba
 7. Nach der Synchronisierung erscheinen alle Plugins unter „Browse plugins" —
    wählen Sie das Plugin Ihrer Abteilung und klicken Sie **Install**
 
-### Claude Cowork — organisationsweit (Admin)
-
-1. Öffnen Sie **Organization settings → Plugins**
-2. Klicken Sie auf **Add marketplace** und wählen Sie **GitHub** als Quelle
-3. Geben Sie das Repository im Format `owner/repo` ein: `3m5/plugin-hub`
-4. Aktivieren Sie optional **Sync automatically**, damit Aktualisierungen
-   automatisch übernommen werden
-5. Die Plugins stehen anschließend allen Mitgliedern der Organisation zur Verfügung
-
 ---
 
-## 03. Verwendung
+## 03. Usage
 
 Nach der Installation einfach den Skill-Namen eingeben (Schema `/<abteilung>:<skill>`):
 
@@ -104,23 +95,6 @@ Nach der Installation einfach den Skill-Namen eingeben (Schema `/<abteilung>:<sk
 ```
 
 Claude erkennt einen Skill auch in natürlicher Sprache, etwa „Grill mich zu meinem Plan".
-
----
-
-## 04. Beitragen
-
-Skills liegen als einzelne Markdown-Dateien im Repository. Einen neuen Skill hinzufügen:
-
-1. `SKILL.md` unter `plugins/<abteilung>/skills/<skill-name>/SKILL.md` anlegen
-2. Den Skill in der README des jeweiligen Plugins ergänzen
-
-Neue Abteilung (= neues Plugin) anlegen:
-
-1. Verzeichnis `plugins/<abteilung>/` anlegen
-2. `plugins/<abteilung>/.claude-plugin/plugin.json` erstellen
-3. Skills unter `plugins/<abteilung>/skills/<skill-name>/SKILL.md` ablegen
-4. Plugin in `.claude-plugin/marketplace.json` unter `plugins[]` registrieren
-5. Die Abteilung oben in dieser README beschreiben
 
 ---
 
