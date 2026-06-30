@@ -2,6 +2,13 @@
   <img src="docs/banner.svg" alt="3m5. Webengineers — Plugin Hub" width="100%">
 </p>
 
+<p align="center">
+  <a href="https://github.com/3m5/plugin-hub/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"></a>
+  <a href="https://github.com/3m5/plugin-hub/commits/main"><img src="https://img.shields.io/github/last-commit/3m5/plugin-hub" alt="Last commit"></a>
+  <a href="https://github.com/3m5/plugin-hub/pulls"><img src="https://img.shields.io/github/issues-pr/3m5/plugin-hub" alt="Open PRs"></a>
+  <img src="https://img.shields.io/badge/Claude-Code%20%7C%20Cowork-034185?logo=anthropic&logoColor=white" alt="Claude Code & Cowork">
+</p>
+
 # 3m5 Plugin Hub
 
 > Kuratierte **Claude-Plugins** für alle 3m5-Abteilungen — nutzbar in **Claude Code** und **Claude Cowork**.
