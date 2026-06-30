@@ -47,19 +47,44 @@ Skills für das Backoffice: E-Mail-Kommunikation, Dokumentenverarbeitung und Vor
 
 ## 02. Installation
 
+### Claude Code
+
 > **Einmalig zuerst:** Den Marketplace als Quelle hinzufügen.
 > ```
-> /plugin marketplace add https://gitlab.3m5.de/suchandt/3m5-skill-hub.git
+> /plugin marketplace add https://github.com/3m5/plugin-hub.git
 > ```
 
 Dann `shared` plus das Plugin Ihrer Abteilung installieren:
 
 ```
-/plugin install shared@3m5-skill-hub
-/plugin install projektmanagement@3m5-skill-hub
+/plugin install shared@plugin-hub
+/plugin install projektmanagement@plugin-hub
 ```
 
 Verfügbare Plugins: `shared`, `projektmanagement`, `design`, `development`, `backoffice`.
+
+### Claude Cowork — persönlich
+
+1. Öffnen Sie den **Cowork**-Tab
+2. Klicken Sie oben rechts auf **Customize**
+3. Wechseln Sie zur Registerkarte **Plugins**
+4. Klicken Sie in der Sektion „Personal plugins" auf **+**
+5. Wählen Sie **Add marketplace → Add from a repository**
+6. Geben Sie die Repository-URL ein:
+   ```
+   https://github.com/3m5/plugin-hub.git
+   ```
+7. Nach der Synchronisierung erscheinen alle Plugins unter „Browse plugins" —
+   wählen Sie das Plugin Ihrer Abteilung und klicken Sie **Install**
+
+### Claude Cowork — organisationsweit (Admin)
+
+1. Öffnen Sie **Organization settings → Plugins**
+2. Klicken Sie auf **Add marketplace** und wählen Sie **GitHub** als Quelle
+3. Geben Sie das Repository im Format `owner/repo` ein: `3m5/plugin-hub`
+4. Aktivieren Sie optional **Sync automatically**, damit Aktualisierungen
+   automatisch übernommen werden
+5. Die Plugins stehen anschließend allen Mitgliedern der Organisation zur Verfügung
 
 ---
 
