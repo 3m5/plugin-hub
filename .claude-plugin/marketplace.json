@@ -1,0 +1,15 @@
+{
+  "name": "3m5-skill-hub",
+  "owner": {
+    "name": "Jan Suchandt",
+    "email": "jan.suchandt@3m5.de"
+  },
+  "description": "3m5 Skill Hub – kuratierte Claude-Skills für Claude Code und Claude Cowork.",
+  "plugins": [
+    {
+      "name": "3m5",
+      "source": "./plugins/3m5",
+      "description": "Relentless interview skill to stress-test a plan or design."
+    }
+  ]
+}
